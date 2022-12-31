@@ -8,10 +8,10 @@ const Footer = () => {
     return (
         <>
             <div className='footer'>
-                <BsYoutube />
-                <BsFacebook />
-                <SiInstagram />
-                <AiFillTwitterCircle />
+                <a href='https://www.youtube.com/'><BsYoutube /></a>
+                <a href='https://www.facebook.com/'><BsFacebook /></a>
+                <a href='https://www.instagram.com/'><SiInstagram /></a>
+                <a href='https://www.twitter.com/'><AiFillTwitterCircle /></a>
             </div>
         </>
     )
